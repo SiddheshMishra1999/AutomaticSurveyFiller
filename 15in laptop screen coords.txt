@@ -1,0 +1,61 @@
+moveMouse(1102, 646)
+moveMouse(510, 434)
+moveMouse(1106, 710)
+moveMouse(479, 431)
+moveMouse(1106, 593)
+moveMouse(570, 408)
+type
+moveMouse(1106, 542)
+
+moveMouse(536, 537)
+moveMouse(1106, 763)
+moveMouse(629, 478)
+moveMouse(1106, 690)
+moveMouse(694, 478)
+moveMouse(1098, 687)
+
+moveMouse(632, 480)
+moveMouse(633, 517)
+moveMouse(629, 550)
+moveMouse(630, 589)
+moveMouse(629, 632)
+moveMouse(628, 686)
+scroll
+moveMouse(1106, 742)
+
+moveMouse(1102, 459)
+
+
+
+moveMouse(640, 454)
+moveMouse(638, 506)
+moveMouse(1108, 647)
+moveMouse(643, 481)
+moveMouse(1110, 621)
+moveMouse(600, 470)
+moveMouse(1104, 686)
+moveMouse(620, 750)
+scroll
+moveMouse(1104, 734)
+
+moveMouse(478, 422)
+moveMouse(1106, 586)
+
+moveMouse(642, 459)
+moveMouse(640, 495)
+moveMouse(638, 535)
+moveMouse(639, 571)
+moveMouse(641, 609)
+moveMouse(638, 642)
+moveMouse(641, 680)
+moveMouse(639, 719)
+scroll
+moveMouse(1109, 736)
+
+moveMouse(471, 413)
+moveMouse(1106, 573)
+moveMouse(1106, 453)
+moveMouse(841, 470)
+moveMouse(1105, 615)
+moveMouse(825, 62)
+
