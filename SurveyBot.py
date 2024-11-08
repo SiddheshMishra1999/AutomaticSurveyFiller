@@ -63,6 +63,7 @@ def type():
 def scroll():
     mouse.wheel(-1)
 
+#15' screen
 def surveyPt1():
     randomNum, message = randomnum()
     # #Enter Survey
@@ -153,7 +154,7 @@ def surveyPt1():
     moveMouse(1102, 459)
     delay(1)
 
-
+# 15'
 def surveyPt2():
     #visit
     moveMouse(640, 454)
@@ -257,15 +258,226 @@ def surveyPt2():
     keyboard.send('enter')
     delay(5)
 
+
+def SurveyPart1_22():
+    randomNum, message = randomnum()
+    # #Enter Survey
+    # moveMouse(2873, 814)
+    # delay(6)
+
+    #start Survey
+    moveMouse(-618, 645)
+    delay(5)
+
+
+    # Date of feedback
+    moveMouse(-880, 424)
+    delay(1)
+    #next page
+    moveMouse(-630, 715)
+    delay(3)
+
+
+    #Highly satisfied
+    moveMouse(-1232, 442)
+    delay(1)
+    #nextpage
+    moveMouse(-625, 591)
+    delay(3)
+
+
+    # text box
+    moveMouse(-905, 400)
+    delay(1)
+    # type something
+    keyboard.write(message[randomNum], delay=1)
+    delay(3)
+
+    #nextpage
+    moveMouse(-627, 536)
+    delay(3)
+
+
+    #Carry Out
+    moveMouse(-939, 535)
+    delay(1)
+    #nextpage
+    moveMouse(-618, 824)
+    delay(3)
+
+
+    #Front Counter
+    moveMouse(-1061, 476)
+    delay(1)
+    #next
+    moveMouse(-622, 690)
+    delay(3)
+
+
+    #beverage only
+    moveMouse(-857, 479)
+    delay(1)
+    #next
+    moveMouse(-626, 684)
+    delay(3)
+
+
+    #Accuracy
+    moveMouse(-1091, 463)
+    delay(1)
+    #taste
+    moveMouse(-1088, 498)
+    delay(1)
+    #speed
+    moveMouse(-1089, 533)
+    delay(1)
+    #friendliness
+    moveMouse(-1090, 573)
+    delay(1)
+    #interior
+    moveMouse(-1090, 621)
+    delay(1)
+    #exterior
+    moveMouse(-1087, 676)
+    delay(1)
+    # Scroll down
+    scroll()
+    #next
+    moveMouse(-628, 813)
+    delay(3)  
+    #part 1 completed
+    moveMouse(-624, 461)
+    delay(3)
+
+def SurveyPart2_22():
+    #visit
+    moveMouse(-1087, 454)
+    delay(1)
+    #Problem
+    moveMouse(-1085, 509)
+    delay(3)
+    #next
+    moveMouse(-623, 646)
+    delay(1)
+    
+    #Merchandise?
+    moveMouse(-977, 479)
+    delay(1)
+    #next
+    moveMouse(-623, 618)
+    delay(3)
+
+    # Merchandise
+    moveMouse(-969, 479)
+    delay(1)
+    #next
+    moveMouse(-611, 627)
+    delay(3)
+
+    # Cold Beverage
+    moveMouse(-1118, 467)
+    delay(1)
+    #next
+    moveMouse(-611, 692)
+    delay(3)
+
+
+    # Ice Coffee
+    moveMouse(-1137, 673)
+    delay(1)
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    #next
+    moveMouse(-624, 953)
+    delay(3)
+
+    #Good coffee?
+    moveMouse(-1254, 439)
+    delay(1)
+    #next
+    moveMouse(-616, 590)
+    delay(3)
+
+    #portion
+    moveMouse(-1088, 465)
+    delay(1)
+    #appearance
+    moveMouse(-1086, 500)
+    delay(1)
+    #packaging
+    moveMouse(-1088, 536)
+    delay(1)
+    #taste
+    moveMouse(-1087, 577)
+    delay(1)
+    #temparature
+    moveMouse(-1087, 611)
+    delay(1)
+    #quality
+    moveMouse(-1087, 646)
+    delay(1)
+    #flavor
+    moveMouse(-1089, 683)
+    delay(1)
+    #valueformoney
+    moveMouse(-1090, 723)
+    delay(1)
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    scroll()
+    #next
+    moveMouse(-626, 852)
+    delay(3)
+
+    #repurchase
+    moveMouse(-1246, 423)
+    delay(1)
+    #next
+    moveMouse(-610, 587)
+    delay(3)
+
+    # #next
+    # moveMouse(-1015, 485)
+    # delay(1) 
+
+    #no outstanding
+    moveMouse(-1015, 485)
+    delay(1)
+    #next
+    moveMouse(-625, 625)
+    delay(3)
+
+    # #new Survey
+    # moveMouse(825, 62)
+    # delay(2)
+    # keyboard.send('enter')
+    # delay(5)
+
+
 def fillSurvey():
-    surveyPt1()
-    surveyPt2()
+    SurveyPart1_22()
+    SurveyPart2_22()
+    keyboard.send("ctrl+w")
+    #surveyPt2()
 
 if __name__ == '__main__':
     # For 1 time use
+    
     fillSurvey()
+    
     # for multiple use
-    # for i in range(0,5):
+    # for i in range(0,8):
     #     fillSurvey()
 
 
